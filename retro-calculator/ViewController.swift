@@ -71,7 +71,7 @@ class ViewController: UIViewController {
             rightArgString = displayNumber
             displayNumber = ""
             
-            if op == Operation.Multiply {
+            if currentOperator == Operation.Multiply {
                 result = "\(Double(leftArgString)! * Double(rightArgString)!)"
             } else if currentOperator == Operation.Divide {
                 result = "\(Double(leftArgString)! / Double(rightArgString)!)"

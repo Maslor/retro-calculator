@@ -237,7 +237,6 @@
                                                 </constraints>
                                                 <state key="normal" image="subtract"/>
                                                 <connections>
-                                                    <action selector="onDividePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Lx-9h-dHC"/>
                                                     <action selector="onSubtractPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tvz-Ow-nM0"/>
                                                 </connections>
                                             </button>
